@@ -16,6 +16,10 @@ import json
 import os
 #url = 'http://52.168.73.191:5000/'
 url = 'http://40.121.209.165:5000/'
+os.makedirs('img',exist_ok=True)
+os.makedirs('bgimg',exist_ok=True)
+os.makedirs('img64',exist_ok=True)
+
 UPLOAD_FOLDER = './img/'
 CUTBG_FOLDER =  './bgimg/'
 IMG64_FOLDER =  './img64/'
